@@ -14,7 +14,7 @@ import java.util.Properties;
 import javax.sql.*;
 
 public class Main {
-
+    //1234
     public static void main(String[] args) throws Exception{
         DataSource dataSource = BlogDataSourceFactory.getBlogDataSource();
         TransactionFactory transactionFactory = new JdbcTransactionFactory();
